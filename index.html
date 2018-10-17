@@ -144,7 +144,7 @@
 
 
         function changeAndBack(touchFlag) {
-            var speedX = 25 * touchFlag;
+            var speedX = 250 * touchFlag;
             touchFlag = 0;
             for (var i = 0; i < particles.length; i++) {
                 particles[i].velocity = new THREE.Vector3(speedX, -10, 0);
